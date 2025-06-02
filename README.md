@@ -61,12 +61,12 @@ files.download("cleaned_sales_data1.csv")
 
 # Summary of Changes:
 
-Missing Values checked and dropped rows with nulls
-Duplicate Rows removed duplicates
-Text Standardization cleaned & formatted text (country, status)
-Date Format	Converted to dd-mm-yyyy
-Column Names renamed to lowercase_with_underscores
-Data Types verified and adjusted where needed
+* Missing Values checked and dropped rows with nulls
+* Duplicate Rows removed duplicates
+* Text Standardization cleaned & formatted text (country, status)
+* Date Format	Converted to dd-mm-yyyy
+* Column Names renamed to lowercase_with_underscores
+* Data Types verified and adjusted where needed
 
 
 # Tools Used:
