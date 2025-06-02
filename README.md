@@ -7,7 +7,7 @@ Clean and prepare a raw sales dataset using Python (Pandas) in Google Colab. Thi
 
 # Dataset Used:
 
-File: sales_data_sample (1).csv
+File: sales_data_sample.csv
 
 Source: https://www.kaggle.com/datasets/kyanyoga/sample-sales-data
 
@@ -22,7 +22,7 @@ Dataset downloaded from Kaggle and uploaded to Google Colab manually
 1. Load Dataset
 
 import pandas as pd
-df = pd.read_csv("sales_data_sample (1).csv", encoding='latin1')
+df = pd.read_csv("sales_data_sample.csv", encoding='latin1')
 
 2. Missing Value Check
 
@@ -53,16 +53,16 @@ df.dtypes
 
 # Final Output:
 
-Cleaned dataset saved as: cleaned_sales_data1.csv
+Cleaned dataset saved as: cleaned_sales_data1 (1).csv
 
 Downloaded from Google Colab:
 from google.colab import files  
-files.download("cleaned_sales_data1.csv")
+files.download("cleaned_sales_data1 (1).csv")
 
 # Summary of Changes:
 
 * Missing Values checked and dropped rows with nulls
-* Duplicate Rows removed duplicates
+* Duplicate Rows removed 
 * Text Standardization cleaned & formatted text (country, status)
 * Date Format	Converted to dd-mm-yyyy
 * Column Names renamed to lowercase_with_underscores
