@@ -1,0 +1,5 @@
+📁 Task1-Sales-Data-Cleaning/
+├── sales_data_sample.csv                  # Original dataset
+├── cleaned_sales_data1 (1).csv            # Cleaned dataset (output)
+├── task1_data_cleaning.py                 # Python code file
+└── README.md                              # Project summary file
